@@ -56,3 +56,5 @@ such as where in the code the problem occurred, but I have not been able to test
 Ideally I will come back to this project some time in the future and figure out where the codegen issue is- perhaps 
 I'm doing something too tricky and causing a crash, and perhaps future versions of Zig will catch the error (if
 it is actually an unrealized type error) or just generate the code and run.
+
+See https://github.com/mkeeter/futureproof/blob/master/src/msgpack.zig for a working implementation. It sounds like the author also ran into some issues, but pushed through and ended up with a working library. Nice!
